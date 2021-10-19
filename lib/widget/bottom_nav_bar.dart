@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
+// ignore: unused_import
 import 'package:flutter_svg/flutter_svg.dart';
-
-
-import 'constants.dart';
 
 class BottomNavBar extends StatelessWidget {
   const BottomNavBar({
@@ -51,6 +49,10 @@ class BottomNavItem extends StatelessWidget {
   }) : super(key: key);
 
   get SvgPicture => null;
+
+  get kActiveIconColor => null;
+
+  get kTextColor => null;
 
   @override
   Widget build(BuildContext context) {
